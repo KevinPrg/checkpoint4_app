@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Uncial+Antiqua&display=swap');
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bolder;
+    margin-top: 10%;
+}
+
+.title p:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.content img {
+    width: 70%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content_title {
+    font-size: 2.5em;
+    color: red;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+.content_detail {
+    margin: 5% 10%;
+    font-size: 1.5em;
+}
+
+body {
+    background-image: url("https://pluspng.com/img-png/stars-png-hd-animated-snowfall-on-transparent-background-alpha-channel-embedded-with-hd-png-file-stock-footage-video-9135602-shutterstock-852.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    color: white;
+  }

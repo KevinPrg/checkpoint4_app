@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Uncial+Antiqua&display=swap');
+
+.title {
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+.games {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 3% 0;
+}
+
+.games a {
+   width: 45%;
+
+}
+
+.games p {
+    font-family: 'Uncial Antiqua', cursive;
+    font-size: 2.5em;
+}
+
+.games img {
+    width: 100%;
+}
+
+.games_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
